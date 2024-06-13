@@ -27,7 +27,7 @@ titleimage.addEventListener("input", function () {
   checkelements();
 });
 
-// Fonction pour valider l'ajout de la photo
+//  pour valider l'ajout de la photo (fonction)
 
  async function validerAjoutPhoto() {
  
@@ -41,7 +41,7 @@ console.log(keytoken);
 
     body: data,
   })
-    .then((response) => {
+  .then((response) => {
       if (!response.ok) {
         throw new Error("l'ajout du travail a échoué");
       }
@@ -51,7 +51,7 @@ console.log(keytoken);
     });
 
     
-} // Fonction pour ouvrir la modale 2
+} //pour ouvrir la modale 2 Fonction 
 
 document
   .getElementById("ajouterPhotoBtnModal2")

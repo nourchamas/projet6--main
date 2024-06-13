@@ -132,9 +132,9 @@ function deleteWork(workId) {
         headers: {
             'Content-Type': 'application/json',
 "Authorization":"Bearer " +localStorage.getItem("token")
-            // Ajoutez d'autres en-têtes si nécessaire
+            
         },
-        // Ajoutez un corps de demande si nécessaire
+        
     })
     .then(response => {
         if (!response.ok) {
