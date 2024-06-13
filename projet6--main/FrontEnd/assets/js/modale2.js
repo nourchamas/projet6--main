@@ -47,6 +47,7 @@ console.log(keytoken);
       }
     })
     .catch((error) => {
+      
       console.error("Erreur lors de l'ajout du travail:", error);
     });
 

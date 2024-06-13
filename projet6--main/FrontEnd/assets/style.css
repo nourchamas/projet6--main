@@ -59,9 +59,8 @@ margin:5px;
 
 
 } /* Ajoute une marge à droite de l'
-
-
-/* HTML5 display-role reset for older browsers */
+/* HTML5 display-role reset
+ for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -270,7 +269,6 @@ footer nav ul {
   
   .modale[aria-hidden=true] .modale-wrapper {
 	animation-name: slideFromBottom;
-
 	display: flex;
     flex-direction: column;
     overflow: auto;
@@ -421,7 +419,7 @@ footer nav ul {
   .modale-projet-form input[type=submit]:hover {
 	color: #1D6154;
 	background-color: white;
-	scale: 1.05;
+	scale: 1.04;
 	cursor: pointer;
   }
   
@@ -578,6 +576,7 @@ opacity: 0px;
 
 
   }
+  /*pour modale 2*/
   .greybar2 {
 	background-color: red;
 	display: block;
