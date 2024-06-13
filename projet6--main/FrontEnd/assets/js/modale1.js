@@ -15,7 +15,7 @@
 
     // Fonction pour ouvrir la première modale
     function ouvrirPremiereModale() {
-        premiereModale.style.display = 'flex'; // Affiche la première modale
+        premiereModale.style.display = ' flex '; // Affiche la première modale
     }
 
     // Fonction pour fermer la première modale

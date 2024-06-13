@@ -454,28 +454,18 @@ footer nav ul {
   
   .admin__modifer {
 	display: none;
+	width: 58px;
+height: 16px;
+top: 737px;
+left: 872px;
+gap: 0px;
+opacity: 0px;
+margin: 15px;
+border:none;
 
 flex-direction: row;
 	
-		 color: #000000;
-		 width: 58px;
-		 height: 16px;
-		 top: 737px;
-		left: 872px
-		 gap : 25px ;
-		 margin: 30px;
 		 
-	font-family: Work Sans;
-font-size: 14px;
-font-weight: 400;
-line-height: 16.42px;
-text-align: center;
-justify-content: center;
-align-items: center;
-text-align: center;
-border: transparent;
-
-
   }
   
   .admin__rod .admin__modifer {
@@ -725,15 +715,17 @@ opacity: 0px;
   
   .btn_modifier {
 	display: inline-block;
-	margin-left: 5px;
+	margin-left: 10px;
 	text-decoration: none;
 	border: none;
 	margin-right: 5px;
+
 	
   }
   
   .btn_modifier fa {
 	margin-right: 5px;
+	
   }
 .column {
     flex: 1; /* Les colonnes s'étendent pour remplir l'espace disponible */
